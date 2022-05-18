@@ -1,0 +1,73 @@
+# This file was created Wed May 18 15:40:06 2022
+# Created by:
+#                  :-) GROMACS - gmx density, VERSION 5.1.2 (-:
+# 
+# Executable:   /apps/gromacs/5.1.2/threadmpi_cuda7.5/bin/gmx
+# Data prefix:  /apps/gromacs/5.1.2/threadmpi_cuda7.5
+# Command line:
+#   gmx density -s md_0_1.tpr -f md_0_1.xtc -n density_groups.ndx -o dens_acyl_chains.xvg -d Z
+# gmx density is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Acyl_Chains"
+   0.0559807                0
+    0.167942                0
+    0.279904                0
+    0.391865                0
+    0.503827                0
+    0.615788         0.041969
+     0.72775         0.903662
+    0.839711          6.69808
+    0.951673          30.3483
+     1.06363          90.5774
+      1.1756          196.839
+     1.28756          352.186
+     1.39952          529.093
+     1.51148          680.099
+     1.62344           786.08
+      1.7354           846.27
+     1.84736          872.437
+     1.95933          851.552
+     2.07129          824.828
+     2.18325          810.375
+     2.29521           809.28
+     2.40717          765.401
+     2.51913          711.838
+     2.63109          649.223
+     2.74306          611.332
+     2.85502          619.376
+     2.96698          679.572
+     3.07894          749.836
+      3.1909          801.187
+     3.30286          817.742
+     3.41483          824.957
+     3.52679          834.185
+     3.63875          803.054
+     3.75071          761.175
+     3.86267          698.671
+     3.97463          625.272
+     4.08659          516.669
+     4.19856          384.632
+     4.31052           243.39
+     4.42248          135.744
+     4.53444           59.053
+      4.6464          21.4573
+     4.75836          6.01377
+     4.87033          1.00962
+     4.98229        0.0843981
+     5.09425        0.0105375
+     5.20621                0
+     5.31817                0
+     5.43013                0
+     5.54209                0

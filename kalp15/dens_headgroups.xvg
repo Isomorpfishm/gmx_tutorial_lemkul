@@ -1,0 +1,73 @@
+# This file was created Wed May 18 15:39:24 2022
+# Created by:
+#                  :-) GROMACS - gmx density, VERSION 5.1.2 (-:
+# 
+# Executable:   /apps/gromacs/5.1.2/threadmpi_cuda7.5/bin/gmx
+# Data prefix:  /apps/gromacs/5.1.2/threadmpi_cuda7.5
+# Command line:
+#   gmx density -s md_0_1.tpr -f md_0_1.xtc -n density_groups.ndx -o dens_headgroups.xvg -d Z
+# gmx density is part of G R O M A C S:
+#
+# Grunge ROck MAChoS
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Headgroups"
+   0.0559807          9.26863
+    0.167942          28.7363
+    0.279904          81.2792
+    0.391865          177.348
+    0.503827          340.308
+    0.615788          538.022
+     0.72775           674.48
+    0.839711          715.931
+    0.951673          661.959
+     1.06363          515.094
+      1.1756          309.855
+     1.28756          139.709
+     1.39952          61.7578
+     1.51148          28.4779
+     1.62344           21.646
+      1.7354          7.92676
+     1.84736         0.468059
+     1.95933                0
+     2.07129                0
+     2.18325                0
+     2.29521                0
+     2.40717                0
+     2.51913                0
+     2.63109                0
+     2.74306                0
+     2.85502                0
+     2.96698                0
+     3.07894                0
+      3.1909                0
+     3.30286                0
+     3.41483                0
+     3.52679         0.167554
+     3.63875          1.49071
+     3.75071          13.8766
+     3.86267           44.563
+     3.97463           85.077
+     4.08659          143.505
+     4.19856          223.461
+     4.31052          308.166
+     4.42248          400.595
+     4.53444          528.297
+      4.6464          620.258
+     4.75836            614.9
+     4.87033          498.643
+     4.98229          346.845
+     5.09425          214.207
+     5.20621          135.106
+     5.31817          79.4877
+     5.43013          34.8546
+     5.54209          13.1184

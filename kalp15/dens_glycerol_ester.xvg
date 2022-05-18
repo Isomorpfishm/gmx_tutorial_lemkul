@@ -1,0 +1,73 @@
+# This file was created Wed May 18 15:39:51 2022
+# Created by:
+#                  :-) GROMACS - gmx density, VERSION 5.1.2 (-:
+# 
+# Executable:   /apps/gromacs/5.1.2/threadmpi_cuda7.5/bin/gmx
+# Data prefix:  /apps/gromacs/5.1.2/threadmpi_cuda7.5
+# Command line:
+#   gmx density -s md_0_1.tpr -f md_0_1.xtc -n density_groups.ndx -o dens_glycerol_ester.xvg -d Z
+# gmx density is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Glycerol_Ester"
+   0.0559807                0
+    0.167942                0
+    0.279904                0
+    0.391865         0.126131
+    0.503827          1.52901
+    0.615788          9.76408
+     0.72775          46.1227
+    0.839711          144.883
+    0.951673          312.452
+     1.06363           475.85
+      1.1756          564.413
+     1.28756          569.124
+     1.39952          466.451
+     1.51148          278.504
+     1.62344          114.936
+      1.7354          49.4631
+     1.84736          17.6174
+     1.95933           3.0891
+     2.07129        0.0628559
+     2.18325                0
+     2.29521                0
+     2.40717                0
+     2.51913                0
+     2.63109                0
+     2.74306                0
+     2.85502                0
+     2.96698                0
+     3.07894                0
+      3.1909                0
+     3.30286         0.759018
+     3.41483          7.57961
+     3.52679          25.8915
+     3.63875          68.1738
+     3.75071          132.012
+     3.86267            193.5
+     3.97463          238.006
+     4.08659          322.572
+     4.19856          435.879
+     4.31052          486.771
+     4.42248          436.227
+     4.53444          344.112
+      4.6464          210.108
+     4.75836          98.9478
+     4.87033             38.9
+     4.98229          11.8612
+     5.09425          2.82333
+     5.20621         0.242849
+     5.31817        0.0211759
+     5.43013                0
+     5.54209                0

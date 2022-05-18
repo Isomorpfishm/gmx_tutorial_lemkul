@@ -1,0 +1,30 @@
+# This file was created Wed May 18 15:00:51 2022
+# Created by:
+#                   :-) GROMACS - gmx order, VERSION 5.1.2 (-:
+# 
+# Executable:   /apps/gromacs/5.1.2/threadmpi_cuda7.5/bin/gmx
+# Data prefix:  /apps/gromacs/5.1.2/threadmpi_cuda7.5
+# Command line:
+#   gmx order -s md_0_1.tpr -f md_0_1.xtc -n sn1.ndx -d z -od deuter_sn1.xvg
+# gmx order is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Deuterium order parameters"
+@    xaxis  label "Atom"
+@    yaxis  label "Scd"
+@TYPE xy
+           1       0.185895
+           2       0.207947
+           3       0.215541
+           4       0.209925
+           5       0.212913
+           6         0.2079
+           7       0.199784
+           8       0.187846
+           9       0.181986
+          10       0.170127
+          11       0.154534
+          12       0.136102
+          13       0.117054
+          14      0.0886075
