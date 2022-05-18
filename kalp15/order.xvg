@@ -1,0 +1,30 @@
+# This file was created Wed May 18 15:04:50 2022
+# Created by:
+#                   :-) GROMACS - gmx order, VERSION 5.1.2 (-:
+# 
+# Executable:   /apps/gromacs/5.1.2/threadmpi_cuda7.5/bin/gmx
+# Data prefix:  /apps/gromacs/5.1.2/threadmpi_cuda7.5
+# Command line:
+#   gmx order -s md_0_1.tpr -f md_0_1.xtc -n sn2.ndx -d z -od deuter_sn2.xvg
+# gmx order is part of G R O M A C S:
+#
+# GROtesk MACabre and Sinister
+#
+@    title "Order tensor diagonal elements"
+@    xaxis  label "Atom"
+@    yaxis  label "S"
+@TYPE xy
+           1      -0.197867      -0.184312       0.382179
+           2      -0.227827      -0.174866       0.402693
+           3      -0.229878      -0.198122       0.427999
+           4      -0.241825      -0.191722       0.433547
+           5       -0.23705      -0.200142       0.437192
+           6      -0.242409      -0.181704       0.424113
+           7       -0.22494      -0.175049       0.399989
+           8      -0.217725       -0.16016       0.377885
+           9       -0.19126         -0.142        0.33326
+          10      -0.176197      -0.127045       0.303243
+          11      -0.160035      -0.110969       0.271004
+          12      -0.142442      -0.094276       0.236718
+          13      -0.120573     -0.0865282       0.207101
+          14      -0.104711     -0.0623298       0.167041
