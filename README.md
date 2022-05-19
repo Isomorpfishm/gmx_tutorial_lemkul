@@ -1,5 +1,7 @@
 # gmx_tutorial_lemkul
-Introductory material into using the GROMACS simulation package by Justin A. Lemkul (Ph.D., Virginia Tech Department of Biochemistry)
+Introductory material into using the GROMACS simulation package by Justin A. Lemkul (Ph.D., Virginia Tech Department of Biochemistry).
+
+[Dr. Lemkul's GROMACS Tutorial Website](http://www.mdtutorials.com/gmx/index.html)
 
 There are currently seven tutorials available:
 1. Lysozyme in Water: The intent of this tutorial is to give new users a basic introduction into the tools used to prepare, run, and perform simple analysis on a "typical" system with GROMACS.
